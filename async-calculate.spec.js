@@ -1,6 +1,5 @@
 
 describe('async tests', () => {
-    test('calculate1', () => {
-    });
-
+  test('calculate1', () => {
+  });
 });
