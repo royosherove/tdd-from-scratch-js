@@ -21,5 +21,6 @@ const calculate3 = (x, y, logger) => {
 
 module.exports = {
     calculate,
-    calculate2
+    calculate2,
+    calculate3
 };
