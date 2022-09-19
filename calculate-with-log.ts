@@ -1,4 +1,4 @@
-const {sendEmail} = require('./my-module');
+import {sendEmail} from './my-module';
 
 const calculate = (x, y, logger) => {
     const result = x+y;
@@ -19,7 +19,7 @@ const calculate3 = (x, y, logger) => {
     return result;
 };
 
-module.exports = {
+export {
     calculate,
     calculate2,
     calculate3
