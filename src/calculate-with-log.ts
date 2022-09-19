@@ -1,4 +1,4 @@
-import {sendEmail} from './my-module';
+import {sendEmail} from '../my-module';
 
 const calculate = (x, y, logger) => {
     const result = x+y;

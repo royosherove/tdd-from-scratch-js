@@ -1,4 +1,4 @@
-import {calculate} from './calculate-with-log'
+import {calculate} from '../src/calculate-with-log'
 
 describe('calculate', () => { 
     it('calls the logger every time',()=>{
